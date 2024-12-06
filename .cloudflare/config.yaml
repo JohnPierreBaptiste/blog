@@ -2,5 +2,5 @@
 build:
   command: hugo --gc --minify
   environment:
-    HUGO_VERSION: 0.121.1
+    HUGO_VERSION: 0.139.3
   publish: public
