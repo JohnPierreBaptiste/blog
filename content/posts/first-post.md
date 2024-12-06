@@ -1,7 +1,7 @@
 ---
 title: "My First Blog Post"
 date: 2024-12-02
-description: "This is an introduction to my blog."
+description: "This is an introduction to my blog. I AM HEEEEEEEEEEEEM"
 tags: ["introduction", "personal"]
 ---
 
