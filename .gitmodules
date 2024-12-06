@@ -4,3 +4,7 @@
 [submodule "myblog/themes/hugo-PaperMod"]
 	path = myblog/themes/hugo-PaperMod
 	url = https://github.com/adityatelange/hugo-PaperMod
+[submodule "themes/hugo-PaperMod"]
+	path = themes/hugo-PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git
+	branch = master
