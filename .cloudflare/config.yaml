@@ -1,0 +1,6 @@
+# Configuration for Cloudflare Pages
+build:
+  command: hugo --gc --minify
+  environment:
+    HUGO_VERSION: 0.121.1
+  publish: /public
