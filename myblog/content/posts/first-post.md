@@ -1,8 +1,16 @@
 ---
-title: "My First Blog Post"
-date: 2024-12-02
-description: "This is an introduction to my blog."
-tags: ["introduction", "personal"]
+title: "Who Am I?"
+date: 2024-12-06
+description: "Jean's first post"
+tags: ["self-definition", "Personal Journal"]
 ---
 
-Welcome to my blog! This is my first post.
+I am building
+
+Who is San Jean
+
+JPB3 is that you? 
+
+Hello
+
+I am building
