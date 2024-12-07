@@ -1,6 +1,6 @@
 baseURL = 'https://sanjean.com/'
 languageCode = 'en-us'
-title = '200+ IQ CEO / CTO life'
+title = "San Jean's Thoughts"
 theme = "hugo-PaperMod"
 
 [menu]

@@ -1,0 +1,25 @@
+/* Bright color for Posts button */
+.nav #menu li a[href^="/posts"] span {
+    background-color: #FF4081 !important; /* Bright pink */
+    color: white !important;
+    padding: 8px 16px !important;
+    border-radius: 4px !important;
+    transition: background-color 0.3s !important;
+}
+
+.nav #menu li a[href^="/posts"] span:hover {
+    background-color: #FF80AB !important;
+}
+
+/* Recent Activity section styling */
+.recent-activity {
+    margin: 2rem 0 !important;
+    padding: 1rem !important;
+    border: 1px solid var(--border) !important;
+    border-radius: 8px !important;
+}
+
+.recent-activity h2 {
+    margin-bottom: 1rem !important;
+    color: var(--primary) !important;
+}
