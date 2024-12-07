@@ -1,0 +1,108 @@
+{{- define "main" }}
+
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+</header>
+
+<div class="theme-grid">
+  {{ range first 1 (where .Site.RegularPages "Type" "posts") }}
+  <div class="theme-card" data-theme="modern" onclick="window.location.href='{{ .RelPermalink }}'">
+    <div class="theme-preview modern">
+      <h3>Modern Theme</h3>
+      <div class="theme-sample">
+        <h4>{{ .Title }}</h4>
+        <p class="theme-date">{{ .Date.Format "January 2, 2006" }}</p>
+        <p class="theme-excerpt">{{ .Description }}</p>
+      </div>
+    </div>
+  </div>
+  {{ end }}
+  
+  <div class="theme-card coming-soon">
+    <div class="theme-preview">
+      <h3>More Themes Coming Soon</h3>
+      <div class="theme-sample">
+        <p>Stay tuned for additional blog themes!</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+.theme-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+.theme-card {
+  background: var(--entry);
+  border-radius: var(--radius);
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.theme-card:not(.coming-soon):hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.theme-preview {
+  padding: 2rem;
+}
+
+.theme-preview h3 {
+  margin: 0 0 1.5rem 0;
+  color: var(--primary);
+  font-size: 1.5rem;
+}
+
+.theme-sample {
+  padding: 1.5rem;
+  background: var(--code-bg);
+  border-radius: var(--radius);
+}
+
+.theme-sample h4 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: var(--primary);
+}
+
+.theme-date {
+  color: var(--secondary);
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+}
+
+.theme-excerpt {
+  margin: 0.5rem 0 0 0;
+  color: var(--content);
+}
+
+.coming-soon {
+  opacity: 0.7;
+  cursor: default;
+}
+
+.coming-soon:hover {
+  transform: none;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.modern .theme-sample {
+  border-left: 4px solid var(--primary);
+}
+
+@media screen and (max-width: 640px) {
+  .theme-grid {
+    grid-template-columns: 1fr;
+    padding: 1rem 0;
+  }
+}
+</style>
+
+{{- end }}

@@ -2,3 +2,16 @@ baseURL = 'https://sanjean.com/'
 languageCode = 'en-us'
 title = '200+ IQ CEO / CTO life'
 theme = "hugo-PaperMod"
+
+[menu]
+  [[menu.main]]
+    identifier = "themes"
+    name = "Themes"
+    url = "/themes/"
+    weight = 10
+  
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 20

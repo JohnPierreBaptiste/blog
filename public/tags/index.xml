@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on 200&#43; IQ CEO / CTO life</title>
-    <link>https://sanjean.com/tags/</link>
+    <link>http://localhost:57617/tags/</link>
     <description>Recent content in Tags on 200&#43; IQ CEO / CTO life</description>
     <generator>Hugo -- 0.139.3</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 06 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://sanjean.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:57617/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduction</title>
-      <link>https://sanjean.com/tags/introduction/</link>
+      <link>http://localhost:57617/tags/introduction/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://sanjean.com/tags/introduction/</guid>
+      <guid>http://localhost:57617/tags/introduction/</guid>
       <description></description>
     </item>
     <item>
       <title>Personal</title>
-      <link>https://sanjean.com/tags/personal/</link>
+      <link>http://localhost:57617/tags/personal/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://sanjean.com/tags/personal/</guid>
+      <guid>http://localhost:57617/tags/personal/</guid>
       <description></description>
     </item>
   </channel>

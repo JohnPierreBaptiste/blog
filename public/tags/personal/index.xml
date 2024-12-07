@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Personal on 200&#43; IQ CEO / CTO life</title>
-    <link>https://sanjean.com/tags/personal/</link>
+    <link>http://localhost:57617/tags/personal/</link>
     <description>Recent content in Personal on 200&#43; IQ CEO / CTO life</description>
     <generator>Hugo -- 0.139.3</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 06 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://sanjean.com/tags/personal/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:57617/tags/personal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hey, guess what?</title>
-      <link>https://sanjean.com/posts/first-post/</link>
+      <link>http://localhost:57617/posts/first-post/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://sanjean.com/posts/first-post/</guid>
+      <guid>http://localhost:57617/posts/first-post/</guid>
       <description>I&amp;#39;m him</description>
     </item>
   </channel>

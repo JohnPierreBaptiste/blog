@@ -5,11 +5,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>404 Page not found | 200&#43; IQ CEO / CTO life</title>
+<title>Blog Themes | 200&#43; IQ CEO / CTO life</title>
 <meta name="keywords" content="">
-<meta name="description" content="">
+<meta name="description" content="Choose your preferred blog theme">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:57617/404.html">
+<link rel="canonical" href="http://localhost:57617/themes/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.d72444526d7ecbdb0015438a7fa89054a658bf759d0542e2e5df81ce94b493ee.css" integrity="sha256-1yREUm1&#43;y9sAFUOKf6iQVKZYv3WdBULi5d&#43;BzpS0k&#43;4=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:57617/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:57617/favicon-16x16.png">
@@ -18,7 +18,7 @@
 <link rel="mask-icon" href="http://localhost:57617/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:57617/404.html">
+<link rel="alternate" hreflang="en" href="http://localhost:57617/themes/">
 <noscript>
     <style>
         #theme-toggle,
@@ -58,7 +58,7 @@
 </noscript>
 </head>
 
-<body class="list" id="top">
+<body class="" id="top">
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
         document.body.classList.add('dark');
@@ -100,7 +100,7 @@
         <ul id="menu">
             <li>
                 <a href="http://localhost:57617/themes/" title="Themes">
-                    <span>Themes</span>
+                    <span class="active">Themes</span>
                 </a>
             </li>
             <li>
@@ -112,7 +112,111 @@
     </nav>
 </header>
 <main class="main">
-<div class="not-found">404</div>
+
+<header class="page-header">
+  <h1>Blog Themes</h1>
+</header>
+
+<div class="theme-grid">
+  
+  <div class="theme-card" data-theme="modern" onclick="window.location.href='\/posts\/first-post\/'">
+    <div class="theme-preview modern">
+      <h3>Modern Theme</h3>
+      <div class="theme-sample">
+        <h4>Hey, guess what?</h4>
+        <p class="theme-date">December 6, 2024</p>
+        <p class="theme-excerpt">I&#39;m him</p>
+      </div>
+    </div>
+  </div>
+  
+  
+  <div class="theme-card coming-soon">
+    <div class="theme-preview">
+      <h3>More Themes Coming Soon</h3>
+      <div class="theme-sample">
+        <p>Stay tuned for additional blog themes!</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+.theme-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+.theme-card {
+  background: var(--entry);
+  border-radius: var(--radius);
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.theme-card:not(.coming-soon):hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.theme-preview {
+  padding: 2rem;
+}
+
+.theme-preview h3 {
+  margin: 0 0 1.5rem 0;
+  color: var(--primary);
+  font-size: 1.5rem;
+}
+
+.theme-sample {
+  padding: 1.5rem;
+  background: var(--code-bg);
+  border-radius: var(--radius);
+}
+
+.theme-sample h4 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: var(--primary);
+}
+
+.theme-date {
+  color: var(--secondary);
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+}
+
+.theme-excerpt {
+  margin: 0.5rem 0 0 0;
+  color: var(--content);
+}
+
+.coming-soon {
+  opacity: 0.7;
+  cursor: default;
+}
+
+.coming-soon:hover {
+  transform: none;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.modern .theme-sample {
+  border-left: 4px solid var(--primary);
+}
+
+@media screen and (max-width: 640px) {
+  .theme-grid {
+    grid-template-columns: 1fr;
+    padding: 1rem 0;
+  }
+}
+</style>
     </main>
     
 <footer class="footer">
