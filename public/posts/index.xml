@@ -6,14 +6,21 @@
     <description>Recent content in Posts on San Jean&#39;s Thoughts</description>
     <generator>Hugo -- 0.139.3</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 07 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Your Title Here</title>
+      <title>Circadian Disruption</title>
       <link>http://localhost:1313/posts/second-post/</link>
-      <pubDate>Sat, 07 Dec 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/second-post/</guid>
-      <description>Brief description of your post</description>
+      <description>1.02</description>
+    </item>
+    <item>
+      <title>The Story of Jean</title>
+      <link>http://localhost:1313/posts/third-post/</link>
+      <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/third-post/</guid>
+      <description>1.03</description>
     </item>
     <item>
       <title>Echoes of a Muted Child</title>
