@@ -1,5 +1,5 @@
 ---
-title: "The Story of Jean"
+title: "The Story of Lars"
 date: 2024-12-08
 description: "1.03"
 tags: ["People", "Lars"]

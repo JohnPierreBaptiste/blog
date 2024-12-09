@@ -9,18 +9,18 @@
     <lastBuildDate>Sun, 08 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Circadian Disruption</title>
-      <link>http://localhost:1313/posts/second-post/</link>
-      <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/second-post/</guid>
-      <description>1.02</description>
-    </item>
-    <item>
-      <title>The Story of Jean</title>
+      <title>The Story of Lars</title>
       <link>http://localhost:1313/posts/third-post/</link>
       <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/third-post/</guid>
       <description>1.03</description>
+    </item>
+    <item>
+      <title>The Story of Jean</title>
+      <link>http://localhost:1313/posts/second-post/</link>
+      <pubDate>Sat, 07 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/second-post/</guid>
+      <description>1.02</description>
     </item>
     <item>
       <title>Echoes of a Muted Child</title>
