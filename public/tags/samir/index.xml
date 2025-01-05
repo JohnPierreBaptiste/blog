@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Samir on San Jean&#39;s Thoughts</title>
-    <link>http://localhost:52927/tags/samir/</link>
+    <link>https://sanjean.com/tags/samir/</link>
     <description>Recent content in Samir on San Jean&#39;s Thoughts</description>
     <generator>Hugo -- 0.139.3</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 09 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:52927/tags/samir/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sanjean.com/tags/samir/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Story of Samir: Rooted in Transition</title>
-      <link>http://localhost:52927/posts/003-post/</link>
+      <link>https://sanjean.com/posts/003-post/</link>
       <pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52927/posts/003-post/</guid>
+      <guid>https://sanjean.com/posts/003-post/</guid>
       <description>1.03</description>
     </item>
   </channel>
