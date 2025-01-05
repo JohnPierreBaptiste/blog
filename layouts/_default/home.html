@@ -18,25 +18,6 @@
 
 {{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
 
-<!-- Recent Activity Section -->
-<div class="recent-activity">
-  <h2>Recent Activity</h2>
-  {{- range first 1 $pages }}
-  <article class="post-entry">
-    <header class="entry-header">
-      <h3>{{ .Title }}</h3>
-    </header>
-    <div class="entry-content">
-      <p>{{ .Description }}</p>
-    </div>
-    <footer class="entry-footer">
-      <time>{{ .Date.Format "January 2, 2006" }}</time>
-    </footer>
-    <a class="entry-link" href="{{ .Permalink }}"></a>
-  </article>
-  {{- end }}
-</div>
-
 <!-- All Posts Section -->
 <div class="posts-section">
   <h2>All Posts</h2>

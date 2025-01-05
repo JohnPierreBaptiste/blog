@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Poem on San Jean&#39;s Thoughts</title>
-    <link>http://localhost:1313/tags/poem/</link>
+    <link>http://localhost:52927/tags/poem/</link>
     <description>Recent content in Poem on San Jean&#39;s Thoughts</description>
     <generator>Hugo -- 0.139.3</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/poem/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:52927/tags/poem/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Circadian Disruption</title>
-      <link>http://localhost:1313/posts/second-post/</link>
-      <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/second-post/</guid>
+      <link>http://localhost:52927/posts/002-post/</link>
+      <pubDate>Sat, 07 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:52927/posts/002-post/</guid>
       <description>1.02</description>
     </item>
   </channel>
