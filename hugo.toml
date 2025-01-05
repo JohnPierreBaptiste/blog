@@ -3,6 +3,9 @@ languageCode = 'en-us'
 title = "San Jean's Thoughts"
 theme = "hugo-PaperMod"
 
+[params]
+mainSections = ["posts"]
+
 [menu]
   [[menu.main]]
     identifier = "themes"
